@@ -202,7 +202,7 @@ export default Vue.extend({
   },
   computed: {
     currentSong ():string {
-      return this.songs[0].length
+      return this.songs[5].length
     },
     currentSongIdx ():number {
       return this.songs.findIndex(song => song.title === 'Beautiful People (featuring Khalid)')
